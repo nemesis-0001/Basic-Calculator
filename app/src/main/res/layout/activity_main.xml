@@ -64,6 +64,7 @@
                 style="@style/buttonNumber"
                 android:text="@string/ac"
                 android:textColor="@color/white"
+                android:layout_weight="2"
                 android:onClick="allClearAction"
                 android:backgroundTint="@color/red">
             </Button>
@@ -75,12 +76,6 @@
                 android:drawableTint="@color/white"
                 android:onClick="onBackAction"
                 android:padding="100px">
-            </Button>
-
-            <Button
-                style="@style/buttonOperator"
-                android:text="@string/percent"
-                android:onClick="onOperationAction">
             </Button>
 
             <Button
