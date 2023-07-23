@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sub" type="id" />
+    <item name="mult" type="id" />
+    <item name="Result" type="id" />
+    <item name="divide" type="id" />
+    <item name="Equation1" type="id" />
+    <item name="Equation2" type="id" />
+</resources>
