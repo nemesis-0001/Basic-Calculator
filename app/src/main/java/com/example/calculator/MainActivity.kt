@@ -18,18 +18,18 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
-    fun allClearAction(view:View){
+    fun allClearAction(){
         binding.resultTV.text = ""
         binding.workingTV.text = ""
     }
 
-    fun onBackAction(view:View){
+    fun onBackAction(){
         val length = binding.workingTV.length()
         if(length>0)
            binding.workingTV.text= binding.workingTV.text.subSequence(0,length-1)
     }
 
-    fun onEqualAction(view:View){
+    fun onEqualAction(){
         binding.resultTV.visibility = View.VISIBLE
         binding.resultTV.text = calculateResults()
     }
